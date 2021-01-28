@@ -3,8 +3,6 @@ require "yaml"
 file = YAML.load_file("emotionicons.yml")
 puts file.inspect
 
-require 'yaml'
-
 def load_library(file)
   new_file =  YAML.load_file('emotionicons.yml')
   icons = new_file.each_with_object({}) do |(k, v), icons|
