@@ -1,5 +1,5 @@
 require 'yaml'
-require 'pry'
+
 file = YAML.load_file('./lib/emoticons.yml')
 puts file.inspect
 
