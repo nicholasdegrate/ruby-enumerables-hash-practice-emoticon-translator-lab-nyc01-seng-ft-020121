@@ -1,6 +1,11 @@
 # require modules here
+require "yaml"
+file = YAML.load_file("emotionicons.yml")
+puts file.inspect
 
-def load_library
+def load_library(file)
+  
+  
   # code goes here
 end
 
